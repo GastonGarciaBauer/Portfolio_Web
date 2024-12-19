@@ -1,0 +1,107 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Barra de búsqueda */
+  .search-bar {
+    width: 600px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  }
+  
+  /* Resultados de búsqueda */
+  .results-container {
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .result-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  .result-item h2 {
+    color: #1a0dab;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .result-item h2:hover {
+    text-decoration: underline;
+  }
+  
+  .result-item p {
+    color: #70757a;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .result-item .url {
+    color: #1a0dab;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .result-item .url:hover {
+    text-decoration: underline;
+  }
+  
+  /* Paginación de resultados */
+  .pagination {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination a {
+    text-decoration: none;
+    color: #1a0dab;
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  
+  .pagination a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Pie de página */
+  .footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #1a0dab;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

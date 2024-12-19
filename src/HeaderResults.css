@@ -1,0 +1,74 @@
+/* Estilos principales */
+.header-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Parte superior con el logo y la barra de búsqueda */
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .google-logo {
+    width: 92px; /* Ajusta el tamaño del logo */
+    height: 50px;
+    width: 120px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 5px 15px;
+    margin-right: 800px;
+    width: 900px !IMPORTANT; /* Tamaño de la barra de búsqueda */
+    height: 50px;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 8px;
+    border-radius: 24px;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 8px 12px;
+    margin-left: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Parte inferior con los botones de navegación */
+  .header-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    border: none;
+    color: #888D92;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-left: 70px;
+    transition: color 0.3s ease;
+  }
+  
